@@ -1,0 +1,184 @@
+.navLogo{
+
+    width: 90px;
+    height: 90px;
+}
+
+#first-Container{
+
+    display: flex;
+    flex: row;
+    background-color: rgb(0, 0, 0);
+    margin-top: 80px;
+
+
+
+}
+
+#second-Container{
+    display: flex;
+    flex: row;
+    background-color: black;
+}
+
+#cook{
+    width: 80%;
+    height: 80%;
+}
+
+#cook2{
+    width: 80%;
+    height: 80%
+}
+.navbar{
+    background-color: rgb(23, 17, 17);
+}
+#navbar.navbar-scrolled {
+    background-color: transparent /* Cambia el color de fondo al hacer scroll */
+}
+
+.text{
+    color: white;
+    
+    
+}
+h1{
+    color: white;
+    font-size: 60px;
+}
+
+.nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+body{
+    background-color: black;
+}
+
+.catering-container {
+    background-image: url('https://media.scoolinary.app/blog/images/2022/05/Paco-Roncero-P3550420.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.catering-text {
+    background-color: rgba(179, 150, 146, 0.7); /* Fondo verde semi-transparente */
+    color:  rgb(23, 17, 17);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+
+footer {
+    padding: 20px 0;
+}
+
+/* Estilo para el logo */
+.footer-logo {
+    width: 150px; /* Ajusta el tamaño del logo según sea necesario */
+}
+
+/* Estilo para los enlaces sociales */
+.social-icons a {
+    color: #fff; /* Color de los iconos */
+    font-size: 20px; /* Tamaño de los iconos */
+    margin: 0 10px; /* Espacio entre los iconos */
+    text-decoration: none;
+    transition: color 0.3s; /* Transición de color al pasar el mouse */
+}
+
+.social-icons a:hover {
+    color: #3F92D2; /* Cambia el color al pasar el mouse */
+}
+
+/* Estilo para el texto de derechos de autor */
+.text-center p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.carousel-image {
+    width: 50%; /* Asegura que todas las imágenes tengan el mismo ancho */
+    height: auto; /* Mantiene la relación de aspecto original */
+    max-height: 400px; /* Define la altura máxima según sea necesario */
+    display: block;
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para los controles */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #fff; /* Color de los íconos de control */
+}
+
+
+.products{
+
+    text-align: center;
+     padding: 10px;
+}
+
+/* Estilo para enlaces activos */
+.nav-item.active a {
+    color: #ff0000; /* Cambia este color al que desees para el resaltado */
+ }
+
+ .card-container{
+   padding-top: 80px;
+   margin-top: 50px;
+ }
+.card{
+    margin-right: 10px;
+}
+.table-Carrito{
+
+    margin-top: 150px;
+}
+
+.carrito{
+
+     min-height: 30vh; 
+    max-width: 1000px; 
+    margin: 0 auto;
+   
+    width: 100%;
+}
+
+.table__productos{
+    
+    display: flex;
+    
+}
+
+.table__productos > img{
+    width: 9rem; 
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+   
+}
+
+.table__cantidad > input{
+   width: 40px;
+   border: none;
+   outline: 0;
+   font-size: 16px;
+   font-weight: 700 ;
+   /* margin-right: 20px; */
+   /* margin-bottom: 40px; */
+}
+ h3{
+    color: white;
+ }
